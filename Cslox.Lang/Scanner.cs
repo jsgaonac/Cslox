@@ -9,7 +9,7 @@ public class Scanner
         _contents = contents;
     }
     
-    public IReadOnlyCollection<Token> ScanTokens()
+    public IReadOnlyList<Token> ScanTokens()
     {
         return Array.Empty<Token>();
     }
