@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cslox", "Cslox\Cslox.csproj", "{F01C9961-9CC2-4B80-85FB-B9624C981768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cslox.Lang", "Cslox.Lang\Cslox.Lang.csproj", "{57977198-4899-4208-8952-86D04C7B4D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F01C9961-9CC2-4B80-85FB-B9624C981768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01C9961-9CC2-4B80-85FB-B9624C981768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01C9961-9CC2-4B80-85FB-B9624C981768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01C9961-9CC2-4B80-85FB-B9624C981768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57977198-4899-4208-8952-86D04C7B4D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57977198-4899-4208-8952-86D04C7B4D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57977198-4899-4208-8952-86D04C7B4D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57977198-4899-4208-8952-86D04C7B4D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
