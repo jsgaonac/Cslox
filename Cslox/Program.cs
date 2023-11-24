@@ -1,5 +1,7 @@
 ﻿using Cslox.Lang;
 
+var hadError = false;
+
 if (args.Length > 1)
 {
     Console.WriteLine("Usage: cslox [script]");
@@ -14,14 +16,17 @@ else
     RunPrompt();
 }
 
-static void RunFile(string path)
+void RunFile(string path)
 {
     var fileContents = File.ReadAllText(path);
 
     Run(fileContents);
+    
+    if (hadError)
+        Environment.Exit(65);
 }
 
-static void RunPrompt()
+void RunPrompt()
 {
     while (true)
     {
@@ -32,6 +37,8 @@ static void RunPrompt()
             break;
         
         Run(input);
+
+        hadError = false;
     }
 }
 
